@@ -23,15 +23,16 @@ Where the first string after -d would be the document to update and the JSON str
 
 The database does not enforce the restrictions of each field as outlined in the schema provided. 
 
-Was unable to test with unit tests, but here are some of the scenarios I would have checked for 
-  -GET with an existing document 
-  -GET with an non-existing document
-  -POST with data that follows the schema
-  -POST with data that does not follow the schema
-  -POST with data that already exists in the database
-  -PUT with an exisiting document
-  -PUT with an non-exisiting document
-  -creating duplicate documents and trying to retrieve them 
+Was unable to test with unit tests, but here are some of the scenarios I would have checked for
+
+-GET with an existing document 
+-GET with an non-existing document
+-POST with data that follows the schema
+-POST with data that does not follow the schema
+-POST with data that already exists in the database
+-PUT with an exisiting document
+-PUT with an non-exisiting document
+-creating duplicate documents and trying to retrieve them 
  
  In general, I would have also implemented classes in order for the data be to more well structured and easier to work with
   
