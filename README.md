@@ -1,6 +1,7 @@
 # CruzHacks2021_BackendChallenge
 
 # How to Run:
+Dependencies: Flask (pip install Flask) https://flask.palletsprojects.com/en/1.1.x/installation/
 Run the command python main.py on one terminal, open a separate one to run curl commands
 
 My URL is http://localhost:8085/getHackerInfo instead of http://[projectID].cloudfunctions.net/getHackerInfo with my endpoint being /getHackerInfo
